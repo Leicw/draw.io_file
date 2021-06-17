@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-14T13:50:25.170Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="Fw3NsY7i0ayAPjYgY8uK" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-17T06:49:04.013Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="ez8_KVlJAvP_njWzs5az" version="14.7.9" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
-    <mxGraphModel dx="1340" dy="2231" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1662" dy="1894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -138,11 +138,6 @@
         <mxCell id="tXZHfQQ4HI5e9DIyocW6-39" value="&lt;pre style=&quot;background-color: #282c34 ; color: #bbbbbb ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;.&lt;span style=&quot;color: #61afef&quot;&gt;lambdaQuery&lt;/span&gt;&lt;span style=&quot;color: #d19a66&quot;&gt;()&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #d19a66&quot;&gt;        &lt;/span&gt;.&lt;span style=&quot;color: #61afef&quot;&gt;eq&lt;/span&gt;&lt;span style=&quot;color: #d19a66&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #e5c07b&quot;&gt;TaskReformKeyOrg&lt;/span&gt;::&lt;span style=&quot;color: #61afef&quot;&gt;getTaskInfoId&lt;/span&gt;, &lt;span style=&quot;color: #d19a66&quot;&gt;taskInfoId)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #d19a66&quot;&gt;        &lt;/span&gt;.&lt;span style=&quot;color: #61afef&quot;&gt;orderByAsc&lt;/span&gt;&lt;span style=&quot;color: #d19a66&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #e5c07b&quot;&gt;TaskReformKeyOrg&lt;/span&gt;::&lt;span style=&quot;color: #61afef&quot;&gt;getOrgType&lt;/span&gt;&lt;span style=&quot;color: #d19a66&quot;&gt;)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: #d19a66&quot;&gt;        &lt;/span&gt;.&lt;span style=&quot;color: #61afef&quot;&gt;orderByAsc&lt;/span&gt;&lt;span style=&quot;color: #d19a66&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #e5c07b&quot;&gt;TaskReformKeyOrg&lt;/span&gt;::&lt;span style=&quot;color: #61afef&quot;&gt;getSort&lt;/span&gt;&lt;span style=&quot;color: #d19a66&quot;&gt;)&lt;/span&gt;.&lt;span style=&quot;color: #61afef&quot;&gt;list&lt;/span&gt;&lt;span style=&quot;color: #d19a66&quot;&gt;()&lt;/span&gt;;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1230" y="250" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="tXZHfQQ4HI5e9DIyocW6-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tXZHfQQ4HI5e9DIyocW6-41" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1670" y="180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="tXZHfQQ4HI5e9DIyocW6-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" parent="1" source="tXZHfQQ4HI5e9DIyocW6-41" target="tXZHfQQ4HI5e9DIyocW6-65" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2260" y="100" as="targetPoint" />
@@ -210,14 +205,14 @@
         <mxCell id="tXZHfQQ4HI5e9DIyocW6-75" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tXZHfQQ4HI5e9DIyocW6-65" target="tXZHfQQ4HI5e9DIyocW6-74" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tyhGIWz0MsalxrCetK2Z-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.613;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="tXZHfQQ4HI5e9DIyocW6-65" target="tXZHfQQ4HI5e9DIyocW6-77">
+        <mxCell id="tyhGIWz0MsalxrCetK2Z-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.613;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" parent="1" source="tXZHfQQ4HI5e9DIyocW6-65" target="tXZHfQQ4HI5e9DIyocW6-77" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2360" y="339" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tyhGIWz0MsalxrCetK2Z-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tXZHfQQ4HI5e9DIyocW6-65" target="tXZHfQQ4HI5e9DIyocW6-86">
+        <mxCell id="tyhGIWz0MsalxrCetK2Z-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tXZHfQQ4HI5e9DIyocW6-65" target="tXZHfQQ4HI5e9DIyocW6-86" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2320" y="40" />
@@ -234,7 +229,7 @@
         <mxCell id="tXZHfQQ4HI5e9DIyocW6-68" value="&lt;pre style=&quot;background-color: #282c34 ; color: #bbbbbb ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #e5c07b&quot;&gt;TaskReformKeyOrg&lt;/span&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2140" y="390" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="tyhGIWz0MsalxrCetK2Z-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tXZHfQQ4HI5e9DIyocW6-70">
+        <mxCell id="tyhGIWz0MsalxrCetK2Z-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tXZHfQQ4HI5e9DIyocW6-70" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1980" y="435" as="targetPoint" />
           </mxGeometry>
@@ -279,12 +274,12 @@
         <mxCell id="tXZHfQQ4HI5e9DIyocW6-84" value="code：yyyyMM..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2850" y="140" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="tyhGIWz0MsalxrCetK2Z-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tXZHfQQ4HI5e9DIyocW6-86" target="tyhGIWz0MsalxrCetK2Z-17">
+        <mxCell id="tyhGIWz0MsalxrCetK2Z-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tXZHfQQ4HI5e9DIyocW6-86" target="tyhGIWz0MsalxrCetK2Z-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3020" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tyhGIWz0MsalxrCetK2Z-25" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tXZHfQQ4HI5e9DIyocW6-86" target="tXZHfQQ4HI5e9DIyocW6-89">
+        <mxCell id="tyhGIWz0MsalxrCetK2Z-25" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="tXZHfQQ4HI5e9DIyocW6-86" target="tXZHfQQ4HI5e9DIyocW6-89" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2933" y="520" />
@@ -303,7 +298,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tyhGIWz0MsalxrCetK2Z-26" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tXZHfQQ4HI5e9DIyocW6-89">
+        <mxCell id="tyhGIWz0MsalxrCetK2Z-26" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="tXZHfQQ4HI5e9DIyocW6-89" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1250" y="430" as="targetPoint" />
           </mxGeometry>
@@ -317,40 +312,40 @@
         <mxCell id="tXZHfQQ4HI5e9DIyocW6-97" value="&lt;pre style=&quot;background-color: #282c34 ; color: #bbbbbb ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;TaskName&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: #282c34 ; color: #bbbbbb ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;Content&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;TaskYear&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;TaskCircleType&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;EndTime&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="tXZHfQQ4HI5e9DIyocW6-96" vertex="1">
           <mxGeometry x="10" y="30" width="110" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="tyhGIWz0MsalxrCetK2Z-1" value="一个任务就一个，为什么取的是列表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tyhGIWz0MsalxrCetK2Z-1" value="一个任务就一个，为什么取的是列表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="740" y="110" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="tyhGIWz0MsalxrCetK2Z-2" value="推送" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tyhGIWz0MsalxrCetK2Z-2" value="推送" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="90" y="80" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="tyhGIWz0MsalxrCetK2Z-6" value="&lt;pre style=&quot;background-color: #282c34 ; color: #bbbbbb ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;TaskInfoId&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tyhGIWz0MsalxrCetK2Z-6" value="&lt;pre style=&quot;background-color: #282c34 ; color: #bbbbbb ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;TaskInfoId&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2400" y="140" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="tyhGIWz0MsalxrCetK2Z-11" value="属性" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="tyhGIWz0MsalxrCetK2Z-11" value="属性" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="2680" y="-160" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="tyhGIWz0MsalxrCetK2Z-12" value="&lt;pre style=&quot;background-color: #282c34 ; color: #bbbbbb ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;UserId&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: #282c34 ; color: #bbbbbb ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;UserName&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;OrgId&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;OrgName&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tyhGIWz0MsalxrCetK2Z-11">
+        <mxCell id="tyhGIWz0MsalxrCetK2Z-12" value="&lt;pre style=&quot;background-color: #282c34 ; color: #bbbbbb ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;UserId&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: #282c34 ; color: #bbbbbb ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;UserName&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;OrgId&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;OrgName&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="tyhGIWz0MsalxrCetK2Z-11" vertex="1">
           <mxGeometry x="30" y="90" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="tyhGIWz0MsalxrCetK2Z-14" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tyhGIWz0MsalxrCetK2Z-13" target="tXZHfQQ4HI5e9DIyocW6-86">
+        <mxCell id="tyhGIWz0MsalxrCetK2Z-14" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tyhGIWz0MsalxrCetK2Z-13" target="tXZHfQQ4HI5e9DIyocW6-86" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tyhGIWz0MsalxrCetK2Z-13" value="固定属性" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tyhGIWz0MsalxrCetK2Z-13" value="固定属性" style="triangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2960" y="-90" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="tyhGIWz0MsalxrCetK2Z-15" value="&lt;pre style=&quot;background-color: #282c34 ; color: #bbbbbb ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;UserType&lt;/span&gt;(&lt;span style=&quot;color: #d19a66&quot;&gt;1&lt;/span&gt;)&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(40 , 44 , 52) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;color: rgb(187 , 187 , 187) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;ComeTime&lt;/span&gt;(&lt;span style=&quot;color: #d55fde ; font-style: italic&quot;&gt;new &lt;/span&gt;&lt;span style=&quot;color: #e5c07b&quot;&gt;Date&lt;/span&gt;())&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: rgb(97 , 175 , 239)&quot;&gt;TaskStatus&lt;/span&gt;&lt;font color=&quot;#bbbbbb&quot;&gt;(&lt;/font&gt;&lt;font color=&quot;#e5c07b&quot;&gt;1&lt;/font&gt;&lt;font color=&quot;#bbbbbb&quot;&gt;)：未提交&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;color: rgb(187 , 187 , 187) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;sTaskWorkType（2）：试点任务、反馈任务&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tyhGIWz0MsalxrCetK2Z-15" value="&lt;pre style=&quot;background-color: #282c34 ; color: #bbbbbb ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;UserType&lt;/span&gt;(&lt;span style=&quot;color: #d19a66&quot;&gt;1&lt;/span&gt;)&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(40 , 44 , 52) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;color: rgb(187 , 187 , 187) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;ComeTime&lt;/span&gt;(&lt;span style=&quot;color: #d55fde ; font-style: italic&quot;&gt;new &lt;/span&gt;&lt;span style=&quot;color: #e5c07b&quot;&gt;Date&lt;/span&gt;())&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: rgb(97 , 175 , 239)&quot;&gt;TaskStatus&lt;/span&gt;&lt;font color=&quot;#bbbbbb&quot;&gt;(&lt;/font&gt;&lt;font color=&quot;#e5c07b&quot;&gt;1&lt;/font&gt;&lt;font color=&quot;#bbbbbb&quot;&gt;)：未提交&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;pre style=&quot;color: rgb(187 , 187 , 187) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;sTaskWorkType（2）：试点任务、反馈任务&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="3130" y="20" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="tyhGIWz0MsalxrCetK2Z-17" value="&lt;pre style=&quot;background-color: #282c34 ; color: #bbbbbb ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #89ca78&quot;&gt;t_task_info&lt;/span&gt;&lt;/pre&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="tyhGIWz0MsalxrCetK2Z-17" value="&lt;pre style=&quot;background-color: #282c34 ; color: #bbbbbb ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #89ca78&quot;&gt;t_task_info&lt;/span&gt;&lt;/pre&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="2990" y="320" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="tyhGIWz0MsalxrCetK2Z-22" value="&lt;pre style=&quot;background-color: #282c34 ; color: #bbbbbb ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;setFeedbackTaskInfoId&lt;/span&gt;(taskInfo.&lt;span style=&quot;color: #61afef&quot;&gt;getId&lt;/span&gt;())&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tyhGIWz0MsalxrCetK2Z-22" value="&lt;pre style=&quot;background-color: #282c34 ; color: #bbbbbb ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: #61afef&quot;&gt;setFeedbackTaskInfoId&lt;/span&gt;(taskInfo.&lt;span style=&quot;color: #61afef&quot;&gt;getId&lt;/span&gt;())&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1340" y="480" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="tyhGIWz0MsalxrCetK2Z-27" value="&lt;pre style=&quot;background-color: rgb(40 , 44 , 52) ; color: rgb(187 , 187 , 187) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: rgb(137 , 202 , 120)&quot;&gt;t_task_reform_key&lt;/span&gt;&lt;/pre&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="tyhGIWz0MsalxrCetK2Z-27" value="&lt;pre style=&quot;background-color: rgb(40 , 44 , 52) ; color: rgb(187 , 187 , 187) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt&quot;&gt;&lt;span style=&quot;color: rgb(137 , 202 , 120)&quot;&gt;t_task_reform_key&lt;/span&gt;&lt;/pre&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="1250" y="390" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="tyhGIWz0MsalxrCetK2Z-28" value="更新" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tyhGIWz0MsalxrCetK2Z-28" value="更新" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1170" y="420" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
