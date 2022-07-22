@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-22T06:58:32.371Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="ZGDCKOMYikiXN9dWlzcN" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-22T07:36:34.066Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="cJwwJ3DIeJ_V2vPr1Z6x" version="20.1.4" type="github">
   <diagram id="6dp3PqyZJJWyxQWhC43P" name="第 1 页">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,10 +37,10 @@
         <mxCell id="rUeERLIHMF86jaovQh1C-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rUeERLIHMF86jaovQh1C-9" target="rUeERLIHMF86jaovQh1C-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rUeERLIHMF86jaovQh1C-9" value="根据字段的取值规则获取时间跨度的两个值" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rUeERLIHMF86jaovQh1C-9" value="根据字段的取值规则获取上个时间跨度的值" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="707" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rUeERLIHMF86jaovQh1C-11" value="从es中获取（找到项目下，上一次时间的数据行，并取得具体字段值）" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rUeERLIHMF86jaovQh1C-11" value="从es中获取（找到这个测点下，上一次时间的数据行，并取得具体字段值）" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="707" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rUeERLIHMF86jaovQh1C-13" value="判断取值字段是否为空" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
@@ -69,8 +69,70 @@
         <mxCell id="rUeERLIHMF86jaovQh1C-25" value="调用表头字段的计算方法，并回填" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1040" y="350" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="rUeERLIHMF86jaovQh1C-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rUeERLIHMF86jaovQh1C-27" target="rUeERLIHMF86jaovQh1C-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rUeERLIHMF86jaovQh1C-27" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;direction=north;" vertex="1" parent="1">
-          <mxGeometry x="40" y="450" width="120" height="20" as="geometry" />
+          <mxGeometry x="40" y="450" width="1110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rUeERLIHMF86jaovQh1C-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rUeERLIHMF86jaovQh1C-29" target="rUeERLIHMF86jaovQh1C-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rUeERLIHMF86jaovQh1C-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.875;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rUeERLIHMF86jaovQh1C-29" target="rUeERLIHMF86jaovQh1C-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rUeERLIHMF86jaovQh1C-29" value="得到完整数据列表，去触发预警" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rUeERLIHMF86jaovQh1C-31" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="60" y="740" width="1070" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rUeERLIHMF86jaovQh1C-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rUeERLIHMF86jaovQh1C-34" target="rUeERLIHMF86jaovQh1C-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rUeERLIHMF86jaovQh1C-34" value="获取当前测点的预警规则" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rUeERLIHMF86jaovQh1C-35" value="项目，工作面，测点&lt;br&gt;值列表" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="585" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rUeERLIHMF86jaovQh1C-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rUeERLIHMF86jaovQh1C-37" target="rUeERLIHMF86jaovQh1C-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rUeERLIHMF86jaovQh1C-37" value="把值列表交给预警规则进行预警判断" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rUeERLIHMF86jaovQh1C-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rUeERLIHMF86jaovQh1C-39" target="rUeERLIHMF86jaovQh1C-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rUeERLIHMF86jaovQh1C-39" value="过滤出预警规则需要的字段" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rUeERLIHMF86jaovQh1C-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rUeERLIHMF86jaovQh1C-46" target="rUeERLIHMF86jaovQh1C-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rUeERLIHMF86jaovQh1C-54" value="没有预警" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rUeERLIHMF86jaovQh1C-51">
+          <mxGeometry x="-0.2889" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rUeERLIHMF86jaovQh1C-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rUeERLIHMF86jaovQh1C-46" target="rUeERLIHMF86jaovQh1C-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rUeERLIHMF86jaovQh1C-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rUeERLIHMF86jaovQh1C-46" target="rUeERLIHMF86jaovQh1C-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rUeERLIHMF86jaovQh1C-46" value="预警判断" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="840" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rUeERLIHMF86jaovQh1C-50" value="结束" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rUeERLIHMF86jaovQh1C-55" value="值预警判断" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rUeERLIHMF86jaovQh1C-57" value="规则预警判断" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="880" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
